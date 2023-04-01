@@ -8,7 +8,7 @@
 import Foundation
 
 struct BasicStruct {
-    var id: Int = 0
-    var name: String = "John"
-    var surname: String = "Doe"
+    var id: Int = DEFAULT_ID
+    var name: String = DEFAULT_NAME
+    var surname: String = DEFAULT_SURNAME
 }

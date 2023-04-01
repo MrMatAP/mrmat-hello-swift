@@ -12,9 +12,9 @@ final class StructsTests: XCTestCase {
     
     func testBasicStructDefaults() throws {
         let basicStruct = BasicStruct()
-        XCTAssertEqual(basicStruct.id, 0, "The ID is the default ID")
-        XCTAssertEqual(basicStruct.name, "John", "The name of the basic struct is the default name")
-        XCTAssertEqual(basicStruct.surname, "Doe", "The surname of the basic struct is the default surname")
+        XCTAssertEqual(basicStruct.id, DEFAULT_ID, "The ID is the default ID")
+        XCTAssertEqual(basicStruct.name, DEFAULT_NAME, "The name of the basic struct is the default name")
+        XCTAssertEqual(basicStruct.surname, DEFAULT_SURNAME, "The surname of the basic struct is the default surname")
     }
 
 }

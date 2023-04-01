@@ -66,7 +66,7 @@ jobs:
         swift test --xunit-output build/reports/junit.xml --parallel
 
     - name: Upload build reports
-      uses: actions/upload-artefact@v3
+      uses: actions/upload-artifact@v3
       with:
         name: build-reports
         path: build/reports

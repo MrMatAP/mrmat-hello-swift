@@ -1,3 +1,3 @@
-# mrmat-hello-swift
+# MrMat :: Hello Swift
 
-A description of this package.
+Exploring the Swift Programming language

@@ -19,7 +19,7 @@ final class BasicsTest: XCTestCase {
     }
     
     func testTypeInference() throws {
-        var foo = "I am a string"
+        let foo = "I am a string"
         XCTAssertTrue(type(of: foo) == String.self, "A variable containing a string is inferred to a String")
         XCTAssertFalse(type(of: foo) == Int.self, "A variable containing a string is not an Int")
         

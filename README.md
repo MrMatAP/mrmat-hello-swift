@@ -1,13 +1,14 @@
 # MrMat :: Hello Swift
 
-Swift Experiments
+Experiments in native Swift.
 
 [![Build](https://github.com/MrMatAP/mrmat-hello-swift/actions/workflows/build.yml/badge.svg)](https://github.com/MrMatAP/mrmat-hello-swift/actions/workflows/build.yml)
 
+> This is a native Swift project, not an XCode project. You can therefore not add additional things to it beyond Swift itself
+
 ## How to use this
 
-This repository serves as a demonstration on how to get a Swift project on its feet. There is currently nothing truly
-functional demonstrated except for a reasonable CI process.
+This repository serves as a demonstration on how to get a Swift project on its feet. There is currently nothing truly functional demonstrated except for a reasonable CI process.
 
 ## How to build this
 
